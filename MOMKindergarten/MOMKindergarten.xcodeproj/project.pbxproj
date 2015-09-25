@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		189064101BB523460056E51A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1890640F1BB523460056E51A /* main.m */; };
+		189064131BB523460056E51A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 189064121BB523460056E51A /* AppDelegate.m */; };
+		189064161BB523460056E51A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189064151BB523460056E51A /* ViewController.m */; };
+		189064191BB523460056E51A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189064171BB523460056E51A /* Main.storyboard */; };
+		1890641B1BB523460056E51A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1890641A1BB523460056E51A /* Assets.xcassets */; };
+		1890641E1BB523460056E51A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1890641C1BB523460056E51A /* LaunchScreen.storyboard */; };
+		189064291BB523460056E51A /* MOMKindergartenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 189064281BB523460056E51A /* MOMKindergartenTests.m */; };
+		189064341BB523460056E51A /* MOMKindergartenUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 189064331BB523460056E51A /* MOMKindergartenUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		189064251BB523460056E51A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 189064031BB523460056E51A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1890640A1BB523460056E51A;
+			remoteInfo = MOMKindergarten;
+		};
+		189064301BB523460056E51A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 189064031BB523460056E51A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1890640A1BB523460056E51A;
+			remoteInfo = MOMKindergarten;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1890640B1BB523460056E51A /* MOMKindergarten.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MOMKindergarten.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1890640F1BB523460056E51A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		189064111BB523460056E51A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		189064121BB523460056E51A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		189064141BB523460056E51A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		189064151BB523460056E51A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		189064181BB523460056E51A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1890641A1BB523460056E51A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1890641D1BB523460056E51A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1890641F1BB523460056E51A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		189064241BB523460056E51A /* MOMKindergartenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MOMKindergartenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		189064281BB523460056E51A /* MOMKindergartenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MOMKindergartenTests.m; sourceTree = "<group>"; };
+		1890642A1BB523460056E51A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1890642F1BB523460056E51A /* MOMKindergartenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MOMKindergartenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		189064331BB523460056E51A /* MOMKindergartenUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MOMKindergartenUITests.m; sourceTree = "<group>"; };
+		189064351BB523460056E51A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		189064081BB523460056E51A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189064211BB523460056E51A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1890642C1BB523460056E51A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		189064021BB523460056E51A = {
+			isa = PBXGroup;
+			children = (
+				1890640D1BB523460056E51A /* MOMKindergarten */,
+				189064271BB523460056E51A /* MOMKindergartenTests */,
+				189064321BB523460056E51A /* MOMKindergartenUITests */,
+				1890640C1BB523460056E51A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1890640C1BB523460056E51A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1890640B1BB523460056E51A /* MOMKindergarten.app */,
+				189064241BB523460056E51A /* MOMKindergartenTests.xctest */,
+				1890642F1BB523460056E51A /* MOMKindergartenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1890640D1BB523460056E51A /* MOMKindergarten */ = {
+			isa = PBXGroup;
+			children = (
+				189064111BB523460056E51A /* AppDelegate.h */,
+				189064121BB523460056E51A /* AppDelegate.m */,
+				189064141BB523460056E51A /* ViewController.h */,
+				189064151BB523460056E51A /* ViewController.m */,
+				189064171BB523460056E51A /* Main.storyboard */,
+				1890641A1BB523460056E51A /* Assets.xcassets */,
+				1890641C1BB523460056E51A /* LaunchScreen.storyboard */,
+				1890641F1BB523460056E51A /* Info.plist */,
+				1890640E1BB523460056E51A /* Supporting Files */,
+			);
+			path = MOMKindergarten;
+			sourceTree = "<group>";
+		};
+		1890640E1BB523460056E51A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1890640F1BB523460056E51A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		189064271BB523460056E51A /* MOMKindergartenTests */ = {
+			isa = PBXGroup;
+			children = (
+				189064281BB523460056E51A /* MOMKindergartenTests.m */,
+				1890642A1BB523460056E51A /* Info.plist */,
+			);
+			path = MOMKindergartenTests;
+			sourceTree = "<group>";
+		};
+		189064321BB523460056E51A /* MOMKindergartenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				189064331BB523460056E51A /* MOMKindergartenUITests.m */,
+				189064351BB523460056E51A /* Info.plist */,
+			);
+			path = MOMKindergartenUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1890640A1BB523460056E51A /* MOMKindergarten */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 189064381BB523460056E51A /* Build configuration list for PBXNativeTarget "MOMKindergarten" */;
+			buildPhases = (
+				189064071BB523460056E51A /* Sources */,
+				189064081BB523460056E51A /* Frameworks */,
+				189064091BB523460056E51A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MOMKindergarten;
+			productName = MOMKindergarten;
+			productReference = 1890640B1BB523460056E51A /* MOMKindergarten.app */;
+			productType = "com.apple.product-type.application";
+		};
+		189064231BB523460056E51A /* MOMKindergartenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1890643B1BB523460056E51A /* Build configuration list for PBXNativeTarget "MOMKindergartenTests" */;
+			buildPhases = (
+				189064201BB523460056E51A /* Sources */,
+				189064211BB523460056E51A /* Frameworks */,
+				189064221BB523460056E51A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				189064261BB523460056E51A /* PBXTargetDependency */,
+			);
+			name = MOMKindergartenTests;
+			productName = MOMKindergartenTests;
+			productReference = 189064241BB523460056E51A /* MOMKindergartenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1890642E1BB523460056E51A /* MOMKindergartenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1890643E1BB523460056E51A /* Build configuration list for PBXNativeTarget "MOMKindergartenUITests" */;
+			buildPhases = (
+				1890642B1BB523460056E51A /* Sources */,
+				1890642C1BB523460056E51A /* Frameworks */,
+				1890642D1BB523460056E51A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				189064311BB523460056E51A /* PBXTargetDependency */,
+			);
+			name = MOMKindergartenUITests;
+			productName = MOMKindergartenUITests;
+			productReference = 1890642F1BB523460056E51A /* MOMKindergartenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		189064031BB523460056E51A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = mom;
+				TargetAttributes = {
+					1890640A1BB523460056E51A = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					189064231BB523460056E51A = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 1890640A1BB523460056E51A;
+					};
+					1890642E1BB523460056E51A = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 1890640A1BB523460056E51A;
+					};
+				};
+			};
+			buildConfigurationList = 189064061BB523460056E51A /* Build configuration list for PBXProject "MOMKindergarten" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 189064021BB523460056E51A;
+			productRefGroup = 1890640C1BB523460056E51A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1890640A1BB523460056E51A /* MOMKindergarten */,
+				189064231BB523460056E51A /* MOMKindergartenTests */,
+				1890642E1BB523460056E51A /* MOMKindergartenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		189064091BB523460056E51A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1890641E1BB523460056E51A /* LaunchScreen.storyboard in Resources */,
+				1890641B1BB523460056E51A /* Assets.xcassets in Resources */,
+				189064191BB523460056E51A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189064221BB523460056E51A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1890642D1BB523460056E51A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		189064071BB523460056E51A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189064161BB523460056E51A /* ViewController.m in Sources */,
+				189064131BB523460056E51A /* AppDelegate.m in Sources */,
+				189064101BB523460056E51A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189064201BB523460056E51A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189064291BB523460056E51A /* MOMKindergartenTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1890642B1BB523460056E51A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189064341BB523460056E51A /* MOMKindergartenUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		189064261BB523460056E51A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1890640A1BB523460056E51A /* MOMKindergarten */;
+			targetProxy = 189064251BB523460056E51A /* PBXContainerItemProxy */;
+		};
+		189064311BB523460056E51A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1890640A1BB523460056E51A /* MOMKindergarten */;
+			targetProxy = 189064301BB523460056E51A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		189064171BB523460056E51A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				189064181BB523460056E51A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1890641C1BB523460056E51A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1890641D1BB523460056E51A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		189064361BB523460056E51A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		189064371BB523460056E51A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		189064391BB523460056E51A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MOMKindergarten/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mom.MOMKindergarten;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1890643A1BB523460056E51A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MOMKindergarten/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mom.MOMKindergarten;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1890643C1BB523460056E51A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MOMKindergartenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mom.MOMKindergartenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MOMKindergarten.app/MOMKindergarten";
+			};
+			name = Debug;
+		};
+		1890643D1BB523460056E51A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MOMKindergartenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mom.MOMKindergartenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MOMKindergarten.app/MOMKindergarten";
+			};
+			name = Release;
+		};
+		1890643F1BB523460056E51A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MOMKindergartenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mom.MOMKindergartenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MOMKindergarten;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		189064401BB523460056E51A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MOMKindergartenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mom.MOMKindergartenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MOMKindergarten;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		189064061BB523460056E51A /* Build configuration list for PBXProject "MOMKindergarten" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189064361BB523460056E51A /* Debug */,
+				189064371BB523460056E51A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		189064381BB523460056E51A /* Build configuration list for PBXNativeTarget "MOMKindergarten" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189064391BB523460056E51A /* Debug */,
+				1890643A1BB523460056E51A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1890643B1BB523460056E51A /* Build configuration list for PBXNativeTarget "MOMKindergartenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1890643C1BB523460056E51A /* Debug */,
+				1890643D1BB523460056E51A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1890643E1BB523460056E51A /* Build configuration list for PBXNativeTarget "MOMKindergartenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1890643F1BB523460056E51A /* Debug */,
+				189064401BB523460056E51A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 189064031BB523460056E51A /* Project object */;
+}
